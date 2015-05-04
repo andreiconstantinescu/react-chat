@@ -1,0 +1,34 @@
+{
+  "name": "react-chat",
+  "version": "0.0.1",
+  "description": "A simple chat application built with ReactJS, ExpressJS, Socket.io and Grunt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/andreiconstantinescu/react-chat"
+  },
+  "keywords": [
+    "react",
+    "socketio",
+    "express",
+    "grunt",
+    "chat",
+    "app",
+    "chat-app"
+  ],
+  "author": "Andrei Constantinescu <andrei@constantinescu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreiconstantinescu/react-chat/issues"
+  },
+  "homepage": "https://github.com/andreiconstantinescu/react-chat",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.12.2"
+  }
+}
