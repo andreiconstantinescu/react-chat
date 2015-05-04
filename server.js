@@ -15,4 +15,4 @@ console.log("Server listening on port: " + port);
 app.use(express.static(join(__dirname, 'public')));
 
 // On each connected user, pass the socket to './chat.js'
-io.on('connection', require('./chat.js'));
+io.on('connection', require('./chat'));
